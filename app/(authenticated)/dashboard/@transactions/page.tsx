@@ -22,7 +22,7 @@ import {
 import { wait } from "@/lib/utils"
 
 export default async function Transactions() {
-    await wait(3000)
+    await wait(2200)
     
     return (
         <>
@@ -48,15 +48,7 @@ export default async function Transactions() {
                         <TableHeader>
                             <TableRow>
                                 <TableHead>Customer</TableHead>
-                                <TableHead className="hidden xl:table-column">
-                                    Type
-                                </TableHead>
-                                <TableHead className="hidden xl:table-column">
-                                    Status
-                                </TableHead>
-                                <TableHead className="hidden xl:table-column">
-                                    Date
-                                </TableHead>
+
                                 <TableHead className="text-right">Amount</TableHead>
                             </TableRow>
                         </TableHeader>
@@ -68,17 +60,6 @@ export default async function Transactions() {
                                         liam@example.com
                                     </div>
                                 </TableCell>
-                                <TableCell className="hidden xl:table-column">
-                                    Sale
-                                </TableCell>
-                                <TableCell className="hidden xl:table-column">
-                                    <Badge className="text-xs" variant="outline">
-                                        Approved
-                                    </Badge>
-                                </TableCell>
-                                <TableCell className="hidden md:table-cell lg:hidden xl:table-column">
-                                    2023-06-23
-                                </TableCell>
                                 <TableCell className="text-right">$250.00</TableCell>
                             </TableRow>
                             <TableRow>
@@ -87,17 +68,6 @@ export default async function Transactions() {
                                     <div className="hidden text-sm text-muted-foreground md:inline">
                                         olivia@example.com
                                     </div>
-                                </TableCell>
-                                <TableCell className="hidden xl:table-column">
-                                    Refund
-                                </TableCell>
-                                <TableCell className="hidden xl:table-column">
-                                    <Badge className="text-xs" variant="outline">
-                                        Declined
-                                    </Badge>
-                                </TableCell>
-                                <TableCell className="hidden md:table-cell lg:hidden xl:table-column">
-                                    2023-06-24
                                 </TableCell>
                                 <TableCell className="text-right">$150.00</TableCell>
                             </TableRow>
@@ -108,17 +78,6 @@ export default async function Transactions() {
                                         noah@example.com
                                     </div>
                                 </TableCell>
-                                <TableCell className="hidden xl:table-column">
-                                    Subscription
-                                </TableCell>
-                                <TableCell className="hidden xl:table-column">
-                                    <Badge className="text-xs" variant="outline">
-                                        Approved
-                                    </Badge>
-                                </TableCell>
-                                <TableCell className="hidden md:table-cell lg:hidden xl:table-column">
-                                    2023-06-25
-                                </TableCell>
                                 <TableCell className="text-right">$350.00</TableCell>
                             </TableRow>
                             <TableRow>
@@ -128,17 +87,6 @@ export default async function Transactions() {
                                         emma@example.com
                                     </div>
                                 </TableCell>
-                                <TableCell className="hidden xl:table-column">
-                                    Sale
-                                </TableCell>
-                                <TableCell className="hidden xl:table-column">
-                                    <Badge className="text-xs" variant="outline">
-                                        Approved
-                                    </Badge>
-                                </TableCell>
-                                <TableCell className="hidden md:table-cell lg:hidden xl:table-column">
-                                    2023-06-26
-                                </TableCell>
                                 <TableCell className="text-right">$450.00</TableCell>
                             </TableRow>
                             <TableRow>
@@ -147,17 +95,6 @@ export default async function Transactions() {
                                     <div className="hidden text-sm text-muted-foreground md:inline">
                                         liam@example.com
                                     </div>
-                                </TableCell>
-                                <TableCell className="hidden xl:table-column">
-                                    Sale
-                                </TableCell>
-                                <TableCell className="hidden xl:table-column">
-                                    <Badge className="text-xs" variant="outline">
-                                        Approved
-                                    </Badge>
-                                </TableCell>
-                                <TableCell className="hidden md:table-cell lg:hidden xl:table-column">
-                                    2023-06-27
                                 </TableCell>
                                 <TableCell className="text-right">$550.00</TableCell>
                             </TableRow>

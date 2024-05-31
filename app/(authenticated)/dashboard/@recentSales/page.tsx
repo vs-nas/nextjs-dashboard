@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/card"
 import { wait } from "@/lib/utils"
 export default async function RecentSalesPage() {
-  await wait(3000)
+  await wait(2300)
   // throw new Error('Internal Server Error');
   return (
     <>

@@ -11,7 +11,6 @@ export default function Error({
     error: Error & { digest?: string }
     reset: () => void
 }) {
-
     return (
         <>
             <Card x-chunk="dashboard-01-chunk-5">

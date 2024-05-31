@@ -40,9 +40,10 @@ export default function Header() {
                     <Link
                         href="/dashboard"
                         className={clsx(
-                            'text-muted-foreground transition-colors hover:text-foreground',
+                            'transition-colors hover:text-foreground',
                             {
                                 'text-foreground': pathname === '/dashboard',
+                                'text-muted-foreground': pathname != '/dashboard'
                             },
                         )}
                     >
@@ -51,9 +52,10 @@ export default function Header() {
                     <Link
                         href="/orders"
                         className={clsx(
-                            'text-muted-foreground transition-colors hover:text-foreground',
+                            'transition-colors hover:text-foreground',
                             {
                                 'text-foreground': pathname === '/orders',
+                                'text-muted-foreground': pathname != '/orders'
                             },
                         )}
                     >
@@ -62,9 +64,10 @@ export default function Header() {
                     <Link
                         href="#"
                         className={clsx(
-                            'text-muted-foreground transition-colors hover:text-foreground',
+                            'transition-colors hover:text-foreground',
                             {
                                 'text-foreground': pathname === '/products',
+                                'text-muted-foreground': pathname != '/products'
                             },
                         )}
                     >
@@ -73,9 +76,10 @@ export default function Header() {
                     <Link
                         href="#"
                         className={clsx(
-                            'text-muted-foreground transition-colors hover:text-foreground',
+                            'transition-colors hover:text-foreground',
                             {
                                 'text-foreground': pathname === '/customers',
+                                'text-muted-foreground': pathname != '/customers'
                             },
                         )}
                     >
@@ -84,9 +88,10 @@ export default function Header() {
                     <Link
                         href="#"
                         className={clsx(
-                            'text-muted-foreground transition-colors hover:text-foreground',
+                            'transition-colors hover:text-foreground',
                             {
                                 'text-foreground': pathname === '/analytics',
+                                'text-muted-foreground': pathname != '/analytics'
                             },
                         )}
                     >

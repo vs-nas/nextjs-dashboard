@@ -52,8 +52,6 @@ export default function Dashboard() {
                                 Sign up
                             </Button>
                         </Link>
-
-
                     </div>
                     <div className="mt-4 text-center text-sm">
                         Already have an account?{" "}
@@ -63,14 +61,16 @@ export default function Dashboard() {
                     </div>
                 </div>
             </div>
-            <div className="hidden bg-muted lg:block">
+            <div className="hidden bg-muted lg:flex justify-center items-center">
                 <Image
-                    src="/abstractImage.jpg"
+                    src="/undraw_sign_up_n6im.svg"
                     alt="Image"
                     width="1920"
                     height="1080"
-                    className="h-[100vh] w-full object-cover dark:brightness-[0.2] dark:grayscale"
+                    priority
+                    className="h-[600px] px-10 w-full dark:brightness-[0.2] dark:grayscale"
                 />
+
             </div>
         </div>
     )

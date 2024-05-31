@@ -49,15 +49,6 @@ export default function TransactionsLoading() {
                         <TableHeader>
                             <TableRow>
                                 <TableHead>Customer</TableHead>
-                                <TableHead className="hidden xl:table-column">
-                                    Type
-                                </TableHead>
-                                <TableHead className="hidden xl:table-column">
-                                    Status
-                                </TableHead>
-                                <TableHead className="hidden xl:table-column">
-                                    Date
-                                </TableHead>
                                 <TableHead className="text-right">Amount</TableHead>
                             </TableRow>
                         </TableHeader>
@@ -71,17 +62,7 @@ export default function TransactionsLoading() {
                                         <Skeleton className="h-4 w-[150px] rounded" />
                                     </div>
                                 </TableCell>
-                                <TableCell className="hidden xl:table-column">
-                                    <Skeleton className="h-4 w-[150px] rounded" />
-                                </TableCell>
-                                <TableCell className="hidden xl:table-column">
-                                    <Badge className="text-xs" variant="outline">
-                                        <Skeleton className="h-4 w-[150px] rounded" />
-                                    </Badge>
-                                </TableCell>
-                                <TableCell className="hidden md:table-cell lg:hidden xl:table-column">
-                                    <Skeleton className="h-4 w-[150px] rounded" />
-                                </TableCell>
+                               
                                 <TableCell className="text-right">
                                     <Skeleton className="h-4 w-[150px] rounded" />
                                 </TableCell>
@@ -95,17 +76,7 @@ export default function TransactionsLoading() {
                                         <Skeleton className="h-4 w-[150px] rounded" />
                                     </div>
                                 </TableCell>
-                                <TableCell className="hidden xl:table-column">
-                                    <Skeleton className="h-4 w-[150px] rounded" />
-                                </TableCell>
-                                <TableCell className="hidden xl:table-column">
-                                    <Badge className="text-xs" variant="outline">
-                                        <Skeleton className="h-4 w-[150px] rounded" />
-                                    </Badge>
-                                </TableCell>
-                                <TableCell className="hidden md:table-cell lg:hidden xl:table-column">
-                                    <Skeleton className="h-4 w-[150px] rounded" />
-                                </TableCell>
+                               
                                 <TableCell className="text-right">
                                     <Skeleton className="h-4 w-[150px] rounded" />
                                 </TableCell>
@@ -119,17 +90,7 @@ export default function TransactionsLoading() {
                                         <Skeleton className="h-4 w-[150px] rounded" />
                                     </div>
                                 </TableCell>
-                                <TableCell className="hidden xl:table-column">
-                                    <Skeleton className="h-4 w-[150px] rounded" />
-                                </TableCell>
-                                <TableCell className="hidden xl:table-column">
-                                    <Badge className="text-xs" variant="outline">
-                                        <Skeleton className="h-4 w-[150px] rounded" />
-                                    </Badge>
-                                </TableCell>
-                                <TableCell className="hidden md:table-cell lg:hidden xl:table-column">
-                                    <Skeleton className="h-4 w-[150px] rounded" />
-                                </TableCell>
+                               
                                 <TableCell className="text-right">
                                     <Skeleton className="h-4 w-[150px] rounded" />
                                 </TableCell>
